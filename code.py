@@ -1,5 +1,5 @@
 # A simple AI program using scikit-learn to classify data with a Decision Tree
-# Generated on 2025-06-12T09:40:11.503Z
+# Generated on 2025-06-12T09:43:25.018Z
 
 # Import necessary libraries
 from sklearn.datasets import make_classification
@@ -14,7 +14,7 @@ X, y = make_classification(
     n_features=5,             # Number of features
     n_informative=3,          # Number of informative features
     n_redundant=0,            # Number of redundant features
-    random_state=194  # Random seed for reproducibility
+    random_state=545  # Random seed for reproducibility
 )
 
 # Split the dataset into training and testing sets
