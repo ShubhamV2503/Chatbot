@@ -1,5 +1,5 @@
 # A simple AI program using scikit-learn to classify data with a Decision Tree
-# Generated on 2025-06-12T09:43:25.018Z
+# Generated on 2025-06-13T03:30:05.593Z
 
 # Import necessary libraries
 from sklearn.datasets import make_classification
@@ -14,14 +14,14 @@ X, y = make_classification(
     n_features=5,             # Number of features
     n_informative=3,          # Number of informative features
     n_redundant=0,            # Number of redundant features
-    random_state=545  # Random seed for reproducibility
+    random_state=255  # Random seed for reproducibility
 )
 
 # Split the dataset into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
 # Initialize the Decision Tree Classifier
-clf = DecisionTreeClassifier(max_depth=4)  # Random max_depth between 3 and 7
+clf = DecisionTreeClassifier(max_depth=6)  # Random max_depth between 3 and 7
 
 # Train the model
 clf.fit(X_train, y_train)
